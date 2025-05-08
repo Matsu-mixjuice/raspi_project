@@ -21,4 +21,5 @@ RaspberryPiをモニターに繋いで確認する(※電力量が足りてい�
 ※必要があれば、`uv pip install モジュール名`でその都度インストールする。
 ## ライブストリーム(live_stream.py)
 Raspberry PI上のターミナルで、`python live_stream.py`をすると、Raspberry Piに繋いでいるカメラモジュールのライブストリーム映像が確認できる。
-## フェイスメッシュ
+## フェイスメッシュ(mediapipe_facemesh.py)
+`python mediapipe_facemesh.py`を実行すると、ライブストリーム映像に、Mediapipeのフェイスメッシュを重ねた映像を確認できる。
