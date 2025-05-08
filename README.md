@@ -22,4 +22,5 @@ RaspberryPiをモニターに繋いで確認する(※電力量が足りてい�
 ## ライブストリーム(live_stream.py)
 Raspberry PI上のターミナルで、`python live_stream.py`をすると、Raspberry Piに繋いでいるカメラモジュールのライブストリーム映像が確認できる。
 ## フェイスメッシュ(mediapipe_facemesh.py)
-`python mediapipe_facemesh.py`を実行すると、ライブストリーム映像に、Mediapipeのフェイスメッシュを重ねた映像を確認できる。
+`python mediapipe_facemesh.py`を実行すると、ライブストリーム映像に、Mediapipeのフェイスメッシュを重ねた映像を確認できる。  
+AI camera内にmediapipeのモデルを置くことはできませんでしした。AI camera内のモデルは、.jsonファイルになっていましたが、Mediapipeの顔のランドマークを出力させるモデルは、.taskモデルになっていることが原因かもしれない。
