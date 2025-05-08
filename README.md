@@ -3,6 +3,8 @@ Raspberry Piとカメラモジュールを使って、いろんなことをし�
 使うもの：  
 ・Raspberry Pi 5  
 ・AI camera  
+RaspberryPiをモニターに繋いで確認する(※電力量が足りていないと、うまくいかない。)
+
 ## raspberry piを動かす環境の作り方  
 1. パッケージ情報を最新にする。  
     `sudo apt update`
@@ -17,4 +19,6 @@ Raspberry Piとカメラモジュールを使って、いろんなことをし�
 6. カメラ系のモジュールのインストール  
     `sudo apt install imx500-all`  
 ※必要があれば、`uv pip install モジュール名`でその都度インストールする。
-## ライブストリーム
+## ライブストリーム(live_stream.py)
+Raspberry PI上のターミナルで、`python live_stream.py`をすると、Raspberry Piに繋いでいるカメラモジュールのライブストリーム映像が確認できる。
+## フェイスメッシュ
